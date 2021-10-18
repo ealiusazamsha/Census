@@ -1,0 +1,190 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Group_01_Census.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head runat="server">
+    <title>CENSUS-A WEBSITE FOR CALCULATING POPULATION</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Merit Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<link href="css/font-awesome.css" rel="stylesheet">		<!-- font-awesome icons -->
+
+<!--// css -->
+<!-- font -->
+<link href="//fonts.googleapis.com/css?family=Montserrat+Alternates:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Libre+Franklin:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+<!-- //font -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+	
+	<!-- start-smooth-scrolling -->
+			<script type="text/javascript" src="js/move-top.js"></script>
+			<script type="text/javascript" src="js/easing.js"></script>
+			<script type="text/javascript">
+			    jQuery(document).ready(function ($) {
+			        $(".scroll").click(function (event) {
+			            event.preventDefault();
+			            $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+			        });
+			    });
+			</script>
+	<!-- //start-smoth-scrolling -->
+		<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+	    $(document).ready(function () {
+	        /*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+
+	        $().UItoTop({ easingType: 'easeOutQuart' });
+
+	    });
+	</script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"/>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $(function () {
+            $(".datepicker").datepicker({
+                dateFormat: 'dd M yy',
+                changeMonth: true,
+                changeYear: true,
+                yearRange: '1930:2018'
+            });
+        });
+  </script>
+        <script type="text/javascript">
+
+            function DeleteConfirm() {
+                var Ans = confirm("Do you want to Delete Selected Employee Record?");
+                if (Ans) {
+                    return true;
+                }
+                else {
+                    return false;
+                }
+            }
+</script> 
+</head>
+<body>
+    <form id="form" runat="server">
+        <div class="w3-banner-edu">
+        	<div class="agileits_top_menu">
+
+   <div class="w3l_header_left">
+				<ul>
+					
+					<li><i class="fa fa-phone" aria-hidden="true"></i>02-8315484</li>
+					<li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="#">censusteam@gmail.com</a></li>
+				</ul>
+			</div>
+			<div class="w3l_header_right">
+                <div>
+        <asp:ContentPlaceHolder ID="welcome" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+				
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+   <div class="agileits_w3layouts_banner_nav">
+       <asp:ContentPlaceHolder ID="Menu" runat="server">
+        
+        </asp:ContentPlaceHolder>
+			
+</div> 
+<div>
+        <asp:ContentPlaceHolder ID="Home" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        </div>
+    
+        
+<!-- footer -->
+			<div class="copy-right">
+				<p>2016-2017 Census</p>
+			</div>
+			
+<!-- //footer -->
+			<!--  countdown-js -->  
+	<script type="text/javascript" src=" js/moment.js"></script>
+	<script type="text/javascript" src=" js/moment-timezone-with-data.js"></script>
+	<script type="text/javascript" src="js/timer.js"></script>
+	<!-- //countdown-js -->   
+									
+	<!--light-box-files -->
+<script src="js/jquery.chocolat.js"></script>
+<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen">
+<!--//light-box-files -->
+		<script type="text/javascript">
+		    $(function () {
+		        $('.gallery a').Chocolat();
+		    });
+		</script>
+<!-- //js -->
+<script type="text/javascript" src="js/numscroller-1.0.js"></script>
+<script src="js/particles.js"></script>
+
+<!-- text-effect -->
+		<script type="text/javascript" src="js/jquery.transit.js"></script> 
+		<script type="text/javascript" src="js/jquery.textFx.js"></script> 
+		<script type="text/javascript">
+		    $(document).ready(function () {
+		        $('.test').textFx({
+		            type: 'fadeIn',
+		            iChar: 100,
+		            iAnim: 1000
+		        });
+		    });
+		</script>
+<!-- //text-effect -->
+<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript">
+	    /* init Jarallax */
+	    $('.jarallax').jarallax({
+	        speed: 0.5,
+	        imgWidth: 1366,
+	        imgHeight: 768
+	    })
+	</script>
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+            event.preventDefault();
+            $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+        });
+    });
+				</script>
+
+<!-- smooth scrolling -->
+	<script type="text/javascript">
+	    $(document).ready(function () {
+	        /*
+                var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear' 
+                };
+            */
+	        $().UItoTop({ easingType: 'easeOutQuart' });
+	    });
+	</script>
+<!-- //smooth scrolling -->
+    </form>
+</body>
+</html>
